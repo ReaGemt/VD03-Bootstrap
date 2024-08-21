@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - CyberSafe</title>
+    <meta name="description" content="CyberSafe предлагает комплексные решения по кибербезопасности для защиты вашего бизнеса. Услуги: аудит безопасности, обучение персонала, защита сетей и данных.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="text-white bg-primary">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1>CyberSafe</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white">Главная</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link text-white">О нас</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link text-white">Услуги</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link text-white">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="pt-5">
+        <section class="py-5 mt-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Наши Услуги</h2>
+                <p class="text-center">Мы предлагаем комплексные решения по кибербезопасности для вашего бизнеса:</p>
+
+                <!-- Аккордеон для услуг -->
+                <div class="accordion" id="servicesAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Аудит безопасности
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Проведение комплексного аудита безопасности для выявления уязвимостей и разработки плана защиты. Наши специалисты проведут полный анализ инфраструктуры вашей компании, выявят слабые места и предложат эффективные решения по их устранению. Мы предоставляем детальный отчет с конкретными рекомендациями и планом действий для повышения уровня безопасности вашего бизнеса.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Обучение персонала
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Организация тренингов и обучающих программ по кибербезопасности для сотрудников вашей компании. Обучение включает в себя как общие темы по безопасности, так и специализированные курсы по работе с корпоративными системами. Наши тренеры обучат ваших сотрудников правильным методам работы с данными, идентификации угроз и защите корпоративной информации. Мы также проводим регулярные тренировки по киберзащите с целью повышения готовности сотрудников к возможным атакам.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Защита сетей и данных
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Разработка и внедрение решений для защиты корпоративных сетей и данных от кибератак. Мы предлагаем комплексные меры по защите ваших данных, включая установку межсетевых экранов, шифрование данных, управление доступом и мониторинг активности в сети. Наши решения позволяют защитить вашу инфраструктуру от внешних и внутренних угроз, а также обеспечить безопасность критически важных данных и сервисов.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Мониторинг и предупреждение угроз
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Постоянный мониторинг и оперативное реагирование на возникающие угрозы для предотвращения атак. Наши специалисты круглосуточно следят за состоянием безопасности ваших систем, выявляют подозрительную активность и реагируют на угрозы в режиме реального времени. Мы также предоставляем услуги по настройке систем предупреждения и автоматизированного реагирования на инциденты, что позволяет минимизировать риски и защитить ваш бизнес от возможных потерь.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>Контактная информация: support@cybersafe.com | +7 (495) 123-45-67</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/cybersafe" class="text-white mx-2" target="_blank"><img src="icon/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/cybersafe" class="text-white mx-2" target="_blank"><img src="icon/twitter.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/company/cybersafe" class="text-white mx-2" target="_blank"><img src="icon/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение Bootstrap JS и зависимостей Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
