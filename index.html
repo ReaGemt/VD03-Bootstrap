@@ -24,6 +24,34 @@
         </div>
     </header>
 
+    <!-- Слайдер -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slide.png" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide2.png" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide3.png" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+
     <!-- Главная секция -->
     <section class="hero-section">
         <div class="container">
@@ -34,41 +62,40 @@
     </section>
 
     <!-- Секция услуг -->
-<section class="services-section">
-    <div class="container">
-        <h3>Наши Услуги</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/audit.webp" class="card-img-top" alt="Аудит безопасности">
-                    <div class="card-body">
-                        <h5 class="card-title">Аудит безопасности</h5>
-                        <p class="card-text">Проведение комплексного аудита безопасности для выявления уязвимостей и разработки плана защиты.</p>
+    <section class="services-section">
+        <div class="container">
+            <h3>Наши Услуги</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/audit.webp" class="card-img-top" alt="Аудит безопасности">
+                        <div class="card-body">
+                            <h5 class="card-title">Аудит безопасности</h5>
+                            <p class="card-text">Проведение комплексного аудита безопасности для выявления уязвимостей и разработки плана защиты.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/trainer.webp" class="card-img-top" alt="Обучение персонала">
-                    <div class="card-body">
-                        <h5 class="card-title">Обучение персонала</h5>
-                        <p class="card-text">Организация тренингов и обучающих программ по кибербезопасности для сотрудников вашей компании.</p>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/trainer.webp" class="card-img-top" alt="Обучение персонала">
+                        <div class="card-body">
+                            <h5 class="card-title">Обучение персонала</h5>
+                            <p class="card-text">Организация тренингов и обучающих программ по кибербезопасности для сотрудников вашей компании.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/protection.webp" class="card-img-top" alt="Защита сетей">
-                    <div class="card-body">
-                        <h5 class="card-title">Защита сетей и данных</h5>
-                        <p class="card-text">Разработка и внедрение решений для защиты корпоративных сетей и данных от кибератак и утечек.</p>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/protection.webp" class="card-img-top" alt="Защита сетей">
+                        <div class="card-body">
+                            <h5 class="card-title">Защита сетей и данных</h5>
+                            <p class="card-text">Разработка и внедрение решений для защиты корпоративных сетей и данных от кибератак и утечек.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
+    </section>
 
     <!-- Футер -->
     <footer class="bg-dark text-white py-4">
